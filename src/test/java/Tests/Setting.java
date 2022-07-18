@@ -17,7 +17,7 @@ import static org.testng.Assert.assertEquals;
 public class Setting extends BasePage {
 static Settingpage settingpageobj;
 
-    @BeforeClass
+@BeforeClass
     public void login() throws Exception {
         BasePage.driverInit();
         BasePage.LoginTest();

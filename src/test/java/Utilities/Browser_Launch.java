@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Browser_Launch 
 {
 	
-	 static WebDriver driver;
+	static WebDriver driver;
 	
 	  public Browser_Launch(WebDriver driver)
 	  {

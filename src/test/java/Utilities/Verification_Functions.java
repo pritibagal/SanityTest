@@ -4,7 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
 
-public class Verification_Functions 
+
+public class Verification_Functions
 {
 	public static void actual_text_data_Campare(String act)
 	{

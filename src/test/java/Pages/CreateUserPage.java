@@ -13,6 +13,7 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.Random;
 
+
 public class CreateUserPage extends BasePage
 {
 

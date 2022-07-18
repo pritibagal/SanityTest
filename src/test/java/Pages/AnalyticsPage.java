@@ -9,6 +9,8 @@ import org.testng.Assert;
 public class
 AnalyticsPage {
 
+
+
     WebDriver driver = null;
 
     //xpath change by suwarna
