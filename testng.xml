@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/chages/Latest Code/IntilliDoc_Product_JAN2022">
+        <classes>
+            <class name="Tests.AnalyticsTest">
+                <methods>
+                    <include name="test_organization_arrows_on_analytics_page"/>
+                    <include name="hover_total_users_on_Analytics_page"/>
+                    <include name="hover_total_documents_on_Analytics_page"/>
+                    <include name="hover_processed_documents_on_Analytics_page"/>
+                    <include name="hover_ready_to_process_on_Analytics_page"/>
+                    <include name="hover_ready_to_rejected_documents_on_Analytics_page"/>
+                </methods>
+            </class>
+            <class name="Tests.AuditTest">
+                <methods>
+                    <include name="verify_expansion_panel"/>
+                    <include name="verify_status_sort"/>
+                    <include name="verify_assignee_sort"/>
+                    <include name="verify_type_sort"/>
+                    <include name="verify_doc_sort"/>
+                </methods>
+            </class>
+            <class name="Tests.CreateUpdateRoleAdminTest">
+                <methods>
+                    <include name="verify_list_of_role_is_present"/>
+                    <include name="verify_search_tab_is_present"/>
+                    <include name="verify_role_sorting"/>
+                    <include name="verify_permission_sorting"/>
+                    <include name="verify_created_sorting"/>
+                </methods>
+            </class>
+            <class name="Tests.CreateUserAdminTest">
+                <methods>
+                    <include name="check_grid_view_is_present"/>
+                    <include name="check_list_view_is_present"/>
+                    <include name="verify_search_tab_is_present"/>
+                    <include name="create_user_with_invalid_data"/>
+                    <include name="disable_user"/>
+                </methods>
+            </class>
+            <class name="Tests.DataSetTest">
+                <methods>
+                    <include name="verify_searchbox_is_present"/>
+                    <include name="verify_categorysort_is_present"/>
+                    <include name="verify_updatedsort_is_present"/>
+                    <include name="verify_datasetsort_is_present"/>
+                    <include name="verify_trainingsort_is_present"/>
+                </methods>
+            </class>
+            <class name="Tests.Document">
+                <methods>
+                    <include name="verify_expansion_panel"/>
+                    <include name="verify_status_sort"/>
+                    <include name="verify_assignee_sort"/>
+                    <include name="verify_type_sort"/>
+                    <include name="verify_doc_sort"/>
+                </methods>
+            </class>
+            <class name="Tests.Project">
+                <methods>
+                    <include name="verify_create_project_button_is_present"/>
+                    <include name="verify_searchbox_is_present"/>
+                    <include name="verify_table_structure_is_present"/>
+                    <include name="verify_list_structure_is_present"/>
+                    <include name="verify_edit_button_is_present"/>
+                </methods>
+            </class>
+            <class name="Tests.Setting">
+                <methods>
+                    <include name="verify_theme_label"/>
+                    <include name="verify_apply_button"/>
+                    <include name="verify_cancel_button"/>
+                    <include name="verify_theme_box"/>
+                    <include name="verify_close_button"/>
+                </methods>
+            </class>
+            <class name="Tests.TemplateTest">
+                <methods>
+                    <include name="verify_searchbox_is_present"/>
+                    <include name="verify_templatesort_is_present"/>
+                    <include name="verify_projectsort_is_present"/>
+                    <include name="verify_pagesort_is_present"/>
+                    <include name="verify_trainingsort_is_present"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
