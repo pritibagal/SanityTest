@@ -36,7 +36,6 @@ public class TemplatePage   {
         return  this.Templatesort;
     }
 
-
     public By getProjectsort(){
         return  this.projectsort;
     }

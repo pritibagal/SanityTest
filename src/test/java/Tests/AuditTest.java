@@ -16,7 +16,6 @@ public class AuditTest extends  BasePage{
         BasePage.driverInit();
         BasePage.LoginTest();
     }
-
     @AfterClass
     public void cleanUp() throws Exception {
         driver.quit();

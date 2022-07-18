@@ -29,10 +29,6 @@ public class ProjectPage   {
     By Username = By.xpath("//input[@formcontrolname='userName']");
     By Password = By.xpath("//input[@formcontrolname='password']");
 
-
-
-
-
     // User Update
 
     By SearchBtn = By.xpath("//input[@data-placeholder='Search']");

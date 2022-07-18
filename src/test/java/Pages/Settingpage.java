@@ -23,7 +23,6 @@ public class Settingpage {
     public  By getlabel(){
         return  this.themelabel;
     }
-
     public  By getApplybtn(){
         return  this.applybtn;
     }

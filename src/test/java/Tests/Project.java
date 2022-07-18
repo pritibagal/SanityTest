@@ -10,7 +10,7 @@ import org.testng.asserts.SoftAssert;
 
 public class Project extends BasePage
 {
-    SoftAssert s= new SoftAssert();
+
     static ProjectPage projectobj;
     @BeforeClass
     public void login() throws Exception {

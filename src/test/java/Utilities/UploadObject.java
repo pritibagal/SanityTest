@@ -9,7 +9,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-    public class UploadObject {
+
+public class UploadObject {
         public static void uploadObject(
                 String projectId, String bucketName, String objectName, String filePath) throws IOException {
 

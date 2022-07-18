@@ -30,8 +30,7 @@ public  static  By auditbtn=By.xpath("(//img[contains(@class,'mat-tooltip-trigge
     public DocumentPage(WebDriver driver) {
         this.driver = driver;
     }
-
-public  void clickondocumentbtn(){
+    public  void clickondocumentbtn(){
         driver.findElement(DocumentBtn).click();
 }
 public  void clickonauditbtn(){

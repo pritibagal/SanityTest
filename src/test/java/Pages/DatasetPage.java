@@ -25,7 +25,6 @@ public class DatasetPage {
     public  By getSearchBox(){
             return  this.SearchBox;
     }
-
     public By getcategory(){
             return  this.getcategory;
     }

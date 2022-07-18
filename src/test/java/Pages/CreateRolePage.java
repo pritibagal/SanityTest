@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.Random;
 
 public class CreateRolePage {
-
     WebDriver driver = null;
     //TC 6.1 element locators
     By searchUser  = By.xpath("//input[@placeholder='Search']");

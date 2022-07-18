@@ -13,8 +13,7 @@ public class Browser_Launch
 	  {
 		  this.driver=driver;
 	  }
-	  
-	  
+
 	  public static WebDriver browser_launch(String url) throws Exception
 	  {
 		  String projectPath = System.getProperty("user.dir");

@@ -15,6 +15,8 @@ import java.util.Random;
 
 public class CreateUserPage extends BasePage
 {
+
+
     public static By UserBtn = By.xpath("(//img[contains(@class,'mat-tooltip-trigger')])[1]");
     public static By CreateUserBtn = By.xpath("//span[text()=' Create User ']");
     public  static By selectSearchedUser=By.xpath("(//mat-icon[contains(text(),'create')])[1]");

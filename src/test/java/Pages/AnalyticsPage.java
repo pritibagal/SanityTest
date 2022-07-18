@@ -12,7 +12,6 @@ AnalyticsPage {
     WebDriver driver = null;
 
     //xpath change by suwarna
-
     public static By AnalyticsBtn = By.xpath("(//img[contains(@class,'mat-tooltip-trigger')])[8]");
     By OrganizationStatistics =By.xpath("//span[text()='Project Statistics']");
     public static By StatisticsHidden = By.xpath("//span[text()='Project Statistics']//following::span[2]");

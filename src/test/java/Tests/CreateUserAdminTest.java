@@ -22,6 +22,7 @@ public class CreateUserAdminTest extends BasePage {
         BasePage.driverInit();
         BasePage.LoginTest();
     }
+
     @AfterClass
     public void cleanUp() throws Exception
     {

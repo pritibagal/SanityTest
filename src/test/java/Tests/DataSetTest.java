@@ -19,6 +19,8 @@ public class DataSetTest extends BasePage {
         BasePage.driverInit();
         BasePage.LoginTest();
     }
+
+
     @AfterClass
     public void cleanUp() throws Exception {
         driver.quit();

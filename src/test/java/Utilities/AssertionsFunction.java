@@ -16,8 +16,6 @@ public class AssertionsFunction extends BasePage{
         Assert.assertEquals(actualValue,expectedValue);
     }
 
-
-
     public static void verifyElementTextNotSame(By eleOne,By eleTwo)
     {
         String act=driver.findElement(eleOne).getText();
