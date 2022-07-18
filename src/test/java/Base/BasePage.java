@@ -76,6 +76,7 @@ public class BasePage {
         loginPageObjects.clickLoginButtonForValidInput();
         Thread.sleep(10000);
     }
+    
 
     public static void driverInit() throws Exception {
         String projectPath = System.getProperty("user.dir");
